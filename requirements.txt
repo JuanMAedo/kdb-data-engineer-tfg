@@ -1,0 +1,3 @@
+# Las dependencias para los scripts de python
+pandas
+openpyxl
