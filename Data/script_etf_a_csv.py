@@ -45,8 +45,16 @@ for etf_excel in all_etf_excel:
 
     # Exportar el DataFrame a un archivo CSV
     etf_name = wb['Holdings']['A2'].value.strip()  
-    csv_path_saving = os.path.join("Data/pre-processed/etf/", etf_tickers_dicc.get(etf_name, etf_name) + ".csv")
-    df.to_csv(csv_path_saving, index=False, sep=',', header=True)
+    etf_name_save = etf_tickers_dicc.get(etf_name, etf_name)
+    df.to_csv(
+        os.path.join(
+            "Data/pre-processed/etf/",
+            etf_name_save + ".csv"
+        ),
+        index=False,
+        sep=",",
+        header=True,
+    )
         
-    print(f'Se ha exportado el archivo CSV como \'{csv_path_saving}\'')
+    print(f'Se ha exportado el archivo CSV como \'{etf_name_save}\'')
 
