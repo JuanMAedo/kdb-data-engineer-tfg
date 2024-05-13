@@ -74,3 +74,5 @@ We created an ETL project structure, which involves learning: kdb+, q language, 
 The main objective is to create a study environment for Blackrock's main ETFs (in US dollars) to try to determine the best parameters or configurations to predict how the price will behave.
 
 We will take advantage of the structure and capabilities offered by q and qSQL to manage and manipulate this data.
+
+In the notebook we will prepare the data and consult them in order to draw valid conclusions for our objectives of isolating and finding good indicators.
