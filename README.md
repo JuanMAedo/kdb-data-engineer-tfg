@@ -18,7 +18,7 @@ This it's opcional, but I did to have in different envs the kernel that I usuall
 
 1. Download [Anaconda](https://www.anaconda.com/download/) or [Miniconda](https://docs.anaconda.com/free/miniconda/miniconda-install/) (my choice).
 
-2. Create conda env with python version (at least 3.10 to use kdb+ kernel 4.1)
+2. Create conda env with python version (at least 3.6 to use kdb+ kernel)
 
 ```
  conda activate
