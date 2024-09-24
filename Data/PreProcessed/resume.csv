@@ -1,0 +1,88 @@
+ticker,inception_date,net_assets,equity_class,region,market
+EWJ,1996-03-12,15729071688.26,Large/Mid Cap,Asia Pacific,Developed
+EWU,1996-03-12,3256996383.57,Large/Mid Cap,Europe,Developed
+EWC,1996-03-12,2591085865.26,Large/Mid Cap,North America,Developed
+EWA,1996-03-12,1439285749.42,Large/Mid Cap,Asia Pacific,Developed
+EWW,1996-03-12,1329798624.06,All Cap,Latin America,Emerging
+EWL,1996-03-12,1310947807.5,Large/Mid Cap,Europe,Developed
+EWP,1996-03-12,1048772655.09,Large/Mid Cap,Europe,Developed
+EWG,1996-03-12,930687743.65,Large/Mid Cap,Europe,Developed
+EWQ,1996-03-12,669923741.86,Large/Mid Cap,Europe,Developed
+EWS,1996-03-12,512593803.7,Large/Mid Cap,Asia Pacific,Developed
+EWH,1996-03-12,509247123.32,Large/Mid Cap,Asia Pacific,Developed
+EWI,1996-03-12,470342506.93,Large/Mid Cap,Europe,Developed
+EWM,1996-03-12,322448191.62,Large/Mid Cap,Asia Pacific,Emerging
+EWD,1996-03-12,307066807.82,Large/Mid Cap,Europe,Developed
+EWN,1996-03-12,294696403.94,All Cap,Europe,Developed
+EWO,1996-03-12,64169858.5,All Cap,Europe,Developed
+EWK,1996-03-12,16107868.0,All Cap,Europe,Developed
+EWY,2000-05-09,5067803750.12,Large/Mid Cap,Asia Pacific,Emerging
+IVV,2000-05-15,521628882614.81,Large Cap,North America,Developed
+IWB,2000-05-15,37979618946.62,Large/Mid Cap,North America,Developed
+IYW,2000-05-15,18806531809.57,All Cap,North America,Developed
+IWF,2000-05-22,96427598166.95,Large/Mid Cap,North America,Developed
+IJH,2000-05-22,89662433927.94,Mid Cap,North America,Developed
+IJR,2000-05-22,86785219847.92,Small Cap,North America,Developed
+IWM,2000-05-22,70848729372.43,Small Cap,North America,Developed
+IWD,2000-05-22,59740751443.5,Large/Mid Cap,North America,Developed
+IVW,2000-05-22,53093497357.51,Large Cap,North America,Developed
+IVE,2000-05-22,35204001115.29,Large Cap,North America,Developed
+IWV,2000-05-22,14829097979.86,All Cap,North America,Developed
+IYF,2000-05-22,3302472981.34,All Cap,North America,Developed
+IYZ,2000-05-22,233055343.81,All Cap,North America,Developed
+IYH,2000-06-12,3575149727.96,All Cap,North America,Developed
+IYY,2000-06-12,2031082428.07,All Cap,North America,Developed
+IYJ,2000-06-12,1537054407.05,All Cap,North America,Developed
+IYG,2000-06-12,1446215118.91,All Cap,North America,Developed
+IDU,2000-06-12,1414795936.58,All Cap,North America,Developed
+IYK,2000-06-12,1316640795.37,All Cap,North America,Developed
+IYE,2000-06-12,1280386948.95,All Cap,North America,Developed
+IYC,2000-06-12,1092509260.31,All Cap,North America,Developed
+IYM,2000-06-12,585360435.64,All Cap,North America,Developed
+EWT,2000-06-20,5234254151.16,Large/Mid Cap,Asia Pacific,Emerging
+EWZ,2000-07-10,4092012998.78,Large/Mid Cap,Latin America,Emerging
+IUSG,2000-07-24,19285864602.15,All Cap,North America,Developed
+IUSV,2000-07-24,19161907874.58,All Cap,North America,Developed
+IWN,2000-07-24,12570664041.65,Small Cap,North America,Developed
+IWO,2000-07-24,11816833131.47,Small Cap,North America,Developed
+IJK,2000-07-24,9890319064.25,Mid Cap,North America,Developed
+IJJ,2000-07-24,7760652064.99,Mid Cap,North America,Developed
+IJS,2000-07-24,7198752071.92,Small Cap,North America,Developed
+IJT,2000-07-24,6535045470.03,Small Cap,North America,Developed
+EZU,2000-07-25,7893721206.15,Large/Mid Cap,Europe,Developed
+IEV,2000-07-25,1768179003.23,Large/Mid Cap,Europe,Developed
+OEF,2000-10-23,13462434867.98,Large Cap,North America,Developed
+IOO,2000-12-05,6085997533.16,Large Cap,Global,Developed
+IBB,2001-02-05,7849298773.33,All Cap,North America,Developed
+IGM,2001-03-13,5050926897.34,All Cap,North America,Developed
+SOXX,2001-07-10,15291542488.56,All Cap,North America,Developed
+IGV,2001-07-10,6398672306.18,All Cap,North America,Developed
+IDGT,2001-07-10,52532044.53,All Cap,North America,Developed
+IWR,2001-07-17,36144920806.68,Mid Cap,North America,Developed
+IWP,2001-07-17,14419708426.28,Mid Cap,North America,Developed
+IWS,2001-07-17,13487094717.34,Mid Cap,North America,Developed
+EFA,2001-08-14,57923705527.26,Large/Mid Cap,Global,Developed
+IGE,2001-10-22,517925429.83,All Cap,North America,Developed
+JPXN,2001-10-23,173413846.92,Large/Mid Cap,Asia Pacific,Developed
+EPP,2001-10-25,1973805592.97,Large/Mid Cap,Asia Pacific,Developed
+ILF,2001-10-25,1385174634.84,Large Cap,Latin America,Emerging
+IXN,2001-11-12,5137193215.25,All Cap,Global,Developed
+IXC,2001-11-12,2152029475.76,All Cap,Global,Developed
+IXG,2001-11-12,402195688.09,All Cap,Global,Developed
+IXP,2001-11-12,362448835.86,All Cap,Global,Developed
+IXJ,2001-11-13,4365337037.48,All Cap,Global,Developed
+EZA,2003-02-03,294692097.9,Large/Mid Cap,Middle East and Africa,Emerging
+EEM,2003-04-07,17685695526.02,Large/Mid Cap,Global,Emerging
+IYT,2003-10-06,618901679.18,All Cap,North America,Developed
+DVY,2003-11-03,19966617355.8,All Cap,North America,Developed
+ITOT,2004-01-20,60999139779.29,All Cap,North America,Developed
+ILCG,2004-06-28,2255478263.77,Large/Mid Cap,North America,Developed
+IMCG,2004-06-28,2077622489.76,Mid Cap,North America,Developed
+ILCB,2004-06-28,1063339574.42,Large/Mid Cap,North America,Developed
+IMCB,2004-06-28,989122927.35,Mid Cap,North America,Developed
+ILCV,2004-06-28,970017469.31,Large/Mid Cap,North America,Developed
+IMCV,2004-06-28,645536008.07,Mid Cap,North America,Developed
+ISCG,2004-06-28,593430196.9,Small Cap,North America,Developed
+ISCV,2004-06-28,432448695.09,Small Cap,North America,Developed
+ISCB,2004-06-28,229284621.6,Small Cap,North America,Developed
+FXI,2004-10-05,3960278097.42,Large Cap,Asia Pacific,Emerging

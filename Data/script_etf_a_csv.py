@@ -29,7 +29,7 @@ for etf_excel in all_etf_excel:
     wb = openpyxl.load_workbook(excel_path_etf)
 
     # Limpiamos datos y renombramos
-    df = df.drop(columns=['Ex-Dividends', 'Non-FV NAV'])
+    df = df.drop(columns=['Ex-Dividends'])
     df = df.rename(columns={'As Of': 'date', 'NAV per Share': 'nav_value', 'Shares Outstanding': 'shares'})
     df['date'] = pd.to_datetime(df['date'])
 
@@ -48,7 +48,7 @@ for etf_excel in all_etf_excel:
     etf_name_save = etf_tickers_dicc.get(etf_name, etf_name)
     df.to_csv(
         os.path.join(
-            "Data/pre-processed/etf/",
+            "Data/PreProcessed/etf/",
             etf_name_save + ".csv"
         ),
         index=False,

@@ -18,7 +18,7 @@ df = df.rename(columns={'Ticker': 'ticker', 'Incept. Date': 'inception_date',
 df['inception_date'] = pd.to_datetime(df['inception_date'])
 
 # Exportar el DataFrame a un archivo CSV
-df.to_csv("Data/pre-processed/resume.csv", index=False, sep=',', header=True)
+df.to_csv("Data/PreProcessed/resume.csv", index=False, sep=',', header=True)
 
 print(f'Se ha exportado el archivo CSV como \'Data/pre-processed/resume.csv\'')
 
