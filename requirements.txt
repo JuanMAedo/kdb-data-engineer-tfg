@@ -1,3 +1,6 @@
 # Las dependencias para los scripts de python
+# Bibliotecas necesarias para los script de conversión de Excels --> CSV
 pandas
 openpyxl
+#Bibliotecas necesarias para la representación gráfica --> Visualization.ipynb
+matplotlib
