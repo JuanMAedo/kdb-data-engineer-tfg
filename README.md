@@ -78,7 +78,7 @@ ___
 - The main objective is to create a study environment for Blackrock's main ETFs (in US dollars) to try to valorate the situation of these ETF. (<mark>**In Development**</mark>)
 - Secondly, create a model to choose a portfolio based on valuations (<mark>**Not started**</mark>).
 
-To develop this model, we will use [Boglehead portfolio theories](https://www.bogleheads.org/wiki/Main_Page) fixed with other ETF investing theories, creating a ideal portfolio to reduce risk as much as possible.
+To develop this model, we will use [Boglehead portfolio theories](https://www.bogleheads.org/wiki/Main_Page) fixed with other ETF investing theories ([Leslie N. Masonson](https://www.informit.com/authors/bio/AC4ED233-98C8-4E89-B1B3-03D5A512AEE7),[Collectively](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4383341)...), creating a ideal portfolio to reduce risk as much as possible.
 
 The first part of thesis will be to create the model in a theoretical way, in order to be able to put it into practice and to be able to analyse in example the set of BlackRock ETFs chosen.
 
