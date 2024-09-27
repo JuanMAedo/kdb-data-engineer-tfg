@@ -2,8 +2,8 @@
 
 Repository implemented to develop my final dual degree project:
 
-> - **Computer Science**: Data Engineer Project at KDB+/q.
-> - **Business Administration**: The Ideal Conditions for ETFs to invest in.
+> - **COMPUTER SCIENCE**: Data Engineer Project at KDB+/q.
+> - **BUSINESS ADMINISTRATION**: ETF investing modelling to reduce risk.
 
 ## Computer Science: Data Engineer Project at KDB+/q
 
@@ -65,18 +65,24 @@ If your license are correct install the *jupyterq* will be able to manage. If yo
 
 ### Info + Structure
 
-All you have to use is the ***kdb-data-engineer-tfg.ipynb***. From there you can run anything you need (for now, it's still in development!).
+- All you have to use is the ***ETLData.ipynb***. From there you can run anything you need (<mark>**In Development**</mark>).
+- For visualizate and test the benchmark, you will have to use ***visualizate.ipynb*** (<mark>**First step done. Preparing scripts**</mark>).
 
 We created an ETL project structure, which involves learning: kdb+, q language, Python, Python graphical libraries, integrations, data processing... in short, a complete project.
 
-## Business Administration: The Ideal Conditions for ETFs to invest in
+## Business Administration: ETF investment modelling to reduce risk
 
-The main objective is to create a study environment for Blackrock's main ETFs (in US dollars) to try to determine the best parameters or configurations to predict how the price will behave.
+- The main objective is to create a study environment for Blackrock's main ETFs (in US dollars) to try to valorate the situation of these ETF. (<mark>**In Development**</mark>)
+- Secondly, create a model to choose a portfolio based on valuations (<mark>**Not started**</mark>).
+
+To develop this model, we will use [Boglehead portfolio theories](https://www.bogleheads.org/wiki/Main_Page) fixed with other ETF investing theories, creating a ideal portfolio to reduce risk as much as possible.
+
+The first part of thesis will be to create the model in a theoretical way, in order to be able to put it into practice and to be able to analyse in example the set of BlackRock ETFs chosen.
+
+We will use a crative benchmark where we will place the different ETFs according to their situation assessment. For this we will use Matplotlib for visualization added to Q language calculations done in the ETL proccess.
 
 
-We will take advantage of the structure and capabilities offered by q and qSQL to manage and manipulate this data.
-
-In the notebook we will prepare the data and consult them in order to draw valid conclusions for our objectives of isolating and finding good indicators.
+We will take advantage of the structure and capabilities offered by Q and qSQL to manage and manipulate this data.
 
 ---
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a>
