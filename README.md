@@ -3,9 +3,11 @@
 Repository implemented to develop my final dual degree project:
 
 > - **COMPUTER SCIENCE**: Data Engineer Project at KDB+/q.
-> - **BUSINESS ADMINISTRATION**: ETF investing modelling to reduce risk.
+> - **BUSINESS ADMINISTRATION**: ETF investment model to reduce risk.
 
-## Computer Science: Data Engineer Project at KDB+/q
+___
+
+# Computer Science: Data Engineer Project at KDB+/q
 
 The main idea is create an entire data engineer process on Jupyter Notebook, using the main tool kernel: KDB+/Q.
 
@@ -69,8 +71,9 @@ If your license are correct install the *jupyterq* will be able to manage. If yo
 - For visualizate and test the benchmark, you will have to use ***visualizate.ipynb*** (<mark>**First step done. Preparing scripts**</mark>).
 
 We created an ETL project structure, which involves learning: kdb+, q language, Python, Python graphical libraries, integrations, data processing... in short, a complete project.
+___
 
-## Business Administration: ETF investment modelling to reduce risk
+# Business Administration: ETF Invest Model to reduce Risk
 
 - The main objective is to create a study environment for Blackrock's main ETFs (in US dollars) to try to valorate the situation of these ETF. (<mark>**In Development**</mark>)
 - Secondly, create a model to choose a portfolio based on valuations (<mark>**Not started**</mark>).
