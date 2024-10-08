@@ -30,9 +30,9 @@ historical_g:{[ETF]
     plt[`:clf][];
     plt[`:figure][(`figsize);(22;14)]; 
 
-    plt[`:plot][ax_x[ETF];ax_y[ETF];"y-"];
-    plt[`:plot][aSMA_x[ETF];aSMA_y[ETF];"r-"];
-    plt[`:plot][aMSMA_x[ETF];aMSMA_y[ETF];"g-"];
+    plt[`:plot][cot_q_date[ETF];cot_q[ETF];"y-"];
+    plt[`:plot][sma_q_date[ETF];sma_q[ETF];"r-"];
+    plt[`:plot][msma_q_date[ETF];msma_q[ETF];"g-"];
 
     format[];
     name: string ETF;
@@ -45,10 +45,9 @@ historical_g:{[ETF]
 historical_g_F:{[ETF;DATE]
     plt[`:clf][];
     plt[`:figure][(`figsize);(22;14)]; 
-
-    plt[`:plot][ax_x_F[ETF;DATE];ax_y_F[ETF;DATE];"y-"];
-    plt[`:plot][aSMA_x_F[ETF;DATE];aSMA_y_F[ETF;DATE];"r-"];
-    plt[`:plot][aMSMA_x_F[ETF;DATE];aMSMA_y_F[ETF;DATE];"g-"];
+    plt[`:plot][cot_q_date_F[ETF;DATE];cot_q_F[ETF;DATE];"y-"];
+    plt[`:plot][sma_q_date_F[ETF;DATE];sma_q_F[ETF;DATE];"r-"];
+    plt[`:plot][msma_q_date_F[ETF;DATE];msma_q_F[ETF;DATE];"g-"];
 
     format[];
     name: string ETF;
@@ -61,7 +60,7 @@ in_outflow_g:{[ETF]
     plt[`:clf][];
     plt[`:figure][(`figsize);(14;10)];
 
-    plt[`:plot][in_out_x[ETF];in_out_y[ETF]; "b-o"];
+    plt[`:plot][in_out_q_date[ETF];in_out_q[ETF]; "b-o"];
     plt[`:axhline][(0)];
     
     format[];
@@ -74,7 +73,7 @@ in_outflow_g_F:{[ETF;DATE]
     plt[`:clf][];
     plt[`:figure][(`figsize);(14;10)];
     
-    plt[`:plot][in_out_x_F[ETF;DATE];in_out_y_F[ETF;DATE]; "b-o"];
+    plt[`:plot][in_out_q_date_F[ETF;DATE];in_out_q_F[ETF;DATE]; "b-o"];
     plt[`:axhline][(0)];
 
     format[];
