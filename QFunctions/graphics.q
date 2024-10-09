@@ -16,7 +16,7 @@ in_out_legend:{[NAME;DATE]
 
 format:{
     ax: plt[`:gca][];
-    //ax[`:set_facecolor]["#f0f0f0"]; 
+    ax[`:set_facecolor]["#FFFCF5"];
     ax[`:xaxis][`:set_major_locator][mdates[`:AutoDateLocator][]];
     plt[`:xticks][;][;][(`rotation;45)];
     plt[`:gcf][][`:autofmt_xdate][];  
