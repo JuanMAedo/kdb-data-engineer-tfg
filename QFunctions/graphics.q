@@ -19,7 +19,9 @@ format:{
     ax[`:set_facecolor]["#FFFCF5"];
     ax[`:xaxis][`:set_major_locator][mdates[`:AutoDateLocator][]];
     plt[`:xticks][;][;][(`rotation;45)];
-    plt[`:gcf][][`:autofmt_xdate][];  
+    plt[`:gcf][][`:autofmt_xdate][];
+    plt[`:gcf][][`:patch][`:set_facecolor]["w"]; 
+    plt[`:grid][];
  }
 
 
