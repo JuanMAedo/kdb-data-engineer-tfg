@@ -3,7 +3,7 @@
 Repository implemented to develop my final dual degree project:
 
 > - **COMPUTER SCIENCE**: Data Engineer Project at KDB+/q.
-> - **BUSINESS ADMINISTRATION**: ETF investment model to reduce risk.
+> - **BUSINESS ADMINISTRATION**: ETF risk study model on their volatilities and drawdowns.
 
 ___
 
@@ -68,13 +68,13 @@ they confiurate the kernel manually.
 
 ### Info + Structure
 
-- All you have to use for generate date enrichment → ***dataETL.ipynb***. From there you can run anything you need (<mark>**In Development**</mark>).
-- For visualizate and agrupation of volatilities followings performance → ***dataAnalytics.ipynb*** (<mark>**First step done. Preparing scripts for volatilities estimation**</mark>).
+- All you have to use for generate date enrichment → ***dataETL.ipynb***. From there you can run anything you need.
+- For visualizate and agrupation of volatilities followings performance → ***dataAnalytics.ipynb***.
 
 We created an ETL project structure, which involves learning: kdb+, q language, Python, Python graphical libraries, integrations, data processing... in short, a complete project.
 ___
 
-# ETF Invest Model to Reduce Risk
+# ETF Model to Reduce Risk
 
 - The main objective is to create a study environment for Blackrock's main ETFs (in US dollars) to try to valorate the situation of these ETF.
 - Secondly, create an estimate based on the past, taking the premise that the market is cyclical.
