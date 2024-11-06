@@ -121,7 +121,6 @@ daily_vol:{ [ETF]
     plt[`:plot][cot_q_date[ETF];vol_y1y[ETF];"r-"];
     plt[`:plot][cot_q_date[ETF];vol_y6m[ETF];"m-"];
     plt[`:plot][cot_q_date[ETF];vol_y3m[ETF];"c-"];
-    ax: plt[`:gca][];
     format[];
     title: "DAILY VOLATILITIES - ",(string ETF);
     plt[`:title][title];
@@ -145,7 +144,6 @@ daily_vol_mom:{ [ETF]
     plt[`:plot][cot_q_date[ETF];vol_p_1y[ETF];"k+"];
     plt[`:plot][cot_q_date[ETF];vol_p_6m[ETF];"k+"];
     plt[`:plot][cot_q_date[ETF];vol_p_3m[ETF];"k+"];
-    ax: plt[`:gca][];
     format[];
     title: "DAILY VOLATILITIES - ",(string ETF);
     plt[`:title][title];
@@ -166,7 +164,7 @@ daily_ret:{ [ETF]
     plt[`:title][title];
     plt[`:xlabel]["DATE"];
     plt[`:ylabel]["VALUE UP/DOWN"];
-    plt[`:legend][("DAILY RETURN";"0")];
+    plt[`:legend][("DAILY RETURN";"EJE X-0")];
     plt[`:tight_layout][];
     plt[`:savefig]["Data/DataWarehouse/Images/Analytics/",(string ETF),"-dailyreturns.png"];
  }
