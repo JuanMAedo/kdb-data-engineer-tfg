@@ -93,7 +93,7 @@ hist_lp_relev:{[ETF]
     plt[`:ylabel]["NAV VALUE"];
     plt[`:legend][("NAV VALUE";"Profits Long Term Moments";"Losses Long Term Moments")];
     plt[`:tight_layout][];
-    plt[`:savefig][(string ETF),"-LT.png"];
+    plt[`:savefig]["Data/DataWarehouse/Images/Hist/",(string ETF),"-LT.png"];
  };
 
 hist_cp_relev:{[ETF]
@@ -110,7 +110,7 @@ hist_cp_relev:{[ETF]
     plt[`:ylabel]["NAV VALUE"];
     plt[`:legend][("NAV VALUE";"Profits Short Term Moments";"Losses Short Term Moments")];
     plt[`:tight_layout][];
-    plt[`:savefig][(string ETF),"-ST.png"];
+    plt[`:savefig]["Data/DataWarehouse/Images/Hist/",(string ETF),"-ST.png"];
  };
 
 daily_vol:{ [ETF]
@@ -128,7 +128,7 @@ daily_vol:{ [ETF]
     plt[`:ylabel]["VALUE UP/DOWN"];
     plt[`:legend][("Vol from 5 years";"Vol from 3 years";"Vol from 1 year";"Vol from 6 months";"Vol from 3 months")];
     plt[`:tight_layout][];
-    plt[`:savefig]["Data/DataWarehouse/Images/Analytics/",(string ETF),"-dailyvolatilities.png"];
+    plt[`:savefig]["Data/DataWarehouse/Images/Analytics/DailyVolatilities/",(string ETF),"-dailyvolatilities.png"];
  }
 
 daily_vol_mom:{ [ETF]
@@ -151,7 +151,7 @@ daily_vol_mom:{ [ETF]
     plt[`:ylabel]["VALUE UP/DOWN"];
     plt[`:legend][("Vol from 5 years";"Vol from 3 years";"Vol from 1 year";"Vol from 6 months";"Vol from 3 months")];
     plt[`:tight_layout][];
-    plt[`:savefig]["Data/DataWarehouse/Images/Analytics/",(string ETF),"-dailyvolatilitiesMoments.png"];
+    plt[`:savefig]["Data/DataWarehouse/Images/Analytics/DailyVolatilities/",(string ETF),"-dailyvolatilitiesMoments.png"];
  }
 
 daily_ret:{ [ETF]
@@ -166,7 +166,7 @@ daily_ret:{ [ETF]
     plt[`:ylabel]["VALUE UP/DOWN"];
     plt[`:legend][("DAILY RETURN";"EJE X-0")];
     plt[`:tight_layout][];
-    plt[`:savefig]["Data/DataWarehouse/Images/Analytics/",(string ETF),"-dailyreturns.png"];
+    plt[`:savefig]["Data/DataWarehouse/Images/Analytics/DailyReturns/",(string ETF),"-dailyreturns.png"];
  }
 
 hist_under_sma_5y:{[ETF;EQUITY]
@@ -187,7 +187,7 @@ hist_under_sma_5y:{[ETF;EQUITY]
                    "Daily 200 SMA"; "Monthly 200 SMA"
                   )];
     plt[`:tight_layout][];
-    plt[`:savefig]["Data/DataWarehouse/Analytics/",EQUITY,"/",(string ETF)," - moments 5 years.png"];
+    plt[`:savefig]["Data/DataWarehouse/Images/Analytics/",EQUITY,"/",(string ETF)," - moments 5 years.png"];
  };
 
 hist_under_sma_3y:{[ETF;EQUITY]
@@ -207,7 +207,7 @@ hist_under_sma_3y:{[ETF;EQUITY]
                    "Daily 200 SMA"; "Monthly 200 SMA"
                   )];
     plt[`:tight_layout][];
-    plt[`:savefig]["Data/DataWarehouse/Analytics/",EQUITY,"/",(string ETF)," - moments 3 years.png"];
+    plt[`:savefig]["Data/DataWarehouse/Images/Analytics/",EQUITY,"/",(string ETF)," - moments 3 years.png"];
  };
 
 hist_under_sma_1y:{[ETF;EQUITY]
@@ -227,7 +227,7 @@ hist_under_sma_1y:{[ETF;EQUITY]
                    "Daily 200 SMA"; "Monthly 200 SMA"
                   )];
     plt[`:tight_layout][];
-    plt[`:savefig]["Data/DataWarehouse/Analytics/",EQUITY,"/",(string ETF)," - moments 1 years.png"];
+    plt[`:savefig]["Data/DataWarehouse/Images/Analytics/",EQUITY,"/",(string ETF)," - moments 1 years.png"];
  };
 hist_under_sma_6m:{[ETF;EQUITY]
     plt[`:clf][];
@@ -246,7 +246,7 @@ hist_under_sma_6m:{[ETF;EQUITY]
                    "Daily 200 SMA"; "Monthly 200 SMA"
                   )];
     plt[`:tight_layout][];
-    plt[`:savefig]["Data/DataWarehouse/Analytics/",EQUITY,"/",(string ETF)," - moments 6 months.png"];
+    plt[`:savefig]["Data/DataWarehouse/Images/Analytics/",EQUITY,"/",(string ETF)," - moments 6 months.png"];
  };
 
 hist_under_sma_3m:{[ETF;EQUITY]
@@ -266,5 +266,5 @@ hist_under_sma_3m:{[ETF;EQUITY]
                    "Daily 200 SMA"; "Monthly 200 SMA"
                   )];
     plt[`:tight_layout][];
-    plt[`:savefig]["Data/DataWarehouse/Analytics/",EQUITY,"/",(string ETF)," - moments 3 months.png"];
+    plt[`:savefig]["Data/DataWarehouse/Images/Analytics/",EQUITY,"/",(string ETF)," - moments 3 months.png"];
  };
