@@ -20,5 +20,5 @@ df['inception_date'] = pd.to_datetime(df['inception_date'])
 # Exportar el DataFrame a un archivo CSV
 df.to_csv("Data/PreProcessed/resume.csv", index=False, sep=',', header=True)
 
-print(f'Se ha exportado el archivo CSV como \'Data/pre-processed/resume.csv\'')
+print(f'Se ha exportado el archivo CSV como \'Data/PreProcessed/resume.csv\'')
 
