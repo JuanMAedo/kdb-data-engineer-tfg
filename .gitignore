@@ -1,6 +1,6 @@
 # Images generated with Matplotlib on Notebooks
-Data/DataWarehouse/Images/Hist/*.png
-Data/DataWarehouse/Images/Inflow-Outflow/*.png
+Data/**/*.png
+
 
 #Owner control of changes
 .ipynb_checkpoints/
