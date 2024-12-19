@@ -169,7 +169,7 @@ daily_ret:{ [ETF]
     plt[`:savefig]["Data/DataWarehouse/Images/Analytics/DailyReturns/",(string ETF),"-dailyreturns.png"];
  }
 
-hist_under_sma_5y:{[ETF;EQUITY]
+hist_filter_msma_5y:{[ETF;EQUITY]
     plt[`:clf][];
     plt[`:figure][(`figsize);(12;8)];
     //fig.patch.set_facecolor('lightblue');
@@ -190,7 +190,7 @@ hist_under_sma_5y:{[ETF;EQUITY]
     plt[`:savefig]["Data/DataWarehouse/Images/Analytics/",EQUITY,"/",(string ETF)," - moments 5 years.png"];
  };
 
-hist_under_sma_3y:{[ETF;EQUITY]
+hist_filter_msma_3y:{[ETF;EQUITY]
     plt[`:clf][];
     plt[`:figure][(`figsize);(12;8)];
     plt[`:plot][cot_q_date[ETF];cot_q[ETF];"y-"];
@@ -210,7 +210,7 @@ hist_under_sma_3y:{[ETF;EQUITY]
     plt[`:savefig]["Data/DataWarehouse/Images/Analytics/",EQUITY,"/",(string ETF)," - moments 3 years.png"];
  };
 
-hist_under_sma_1y:{[ETF;EQUITY]
+hist_filter_msma_1y:{[ETF;EQUITY]
     plt[`:clf][];
     plt[`:figure][(`figsize);(12;8)];
     plt[`:plot][cot_q_date[ETF];cot_q[ETF];"y-"];
@@ -229,7 +229,7 @@ hist_under_sma_1y:{[ETF;EQUITY]
     plt[`:tight_layout][];
     plt[`:savefig]["Data/DataWarehouse/Images/Analytics/",EQUITY,"/",(string ETF)," - moments 1 years.png"];
  };
-hist_under_sma_6m:{[ETF;EQUITY]
+hist_filter_msma_6m:{[ETF;EQUITY]
     plt[`:clf][];
     plt[`:figure][(`figsize);(12;8)];
     plt[`:plot][cot_q_date[ETF];cot_q[ETF];"y-"];
@@ -249,7 +249,7 @@ hist_under_sma_6m:{[ETF;EQUITY]
     plt[`:savefig]["Data/DataWarehouse/Images/Analytics/",EQUITY,"/",(string ETF)," - moments 6 months.png"];
  };
 
-hist_under_sma_3m:{[ETF;EQUITY]
+hist_filter_msma_3m:{[ETF;EQUITY]
     plt[`:clf][];
     plt[`:figure][(`figsize);(12;8)];
     plt[`:plot][cot_q_date[ETF];cot_q[ETF];"y-"];

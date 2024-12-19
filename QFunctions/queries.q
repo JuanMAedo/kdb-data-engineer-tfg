@@ -82,7 +82,7 @@ mom_prof_cp_q:{[ETF]
 
 vol_p_5y:{[ETF]
     a: select date, vol5y: daily_5yvol from historical where ticker=ETF;
-    b: select distinct date, vol5y from table_profits where ticker=ETF, elem=`py5;
+    b: select distinct date, vol5y from table_profits where ticker=ETF, elem=`p5y;
     a: update vol5y: 0n from a; 
     a: a lj `date xkey b;
     (select vol5y from a )`vol5y
