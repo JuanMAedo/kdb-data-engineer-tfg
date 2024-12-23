@@ -23,20 +23,20 @@ sma_q:{[ETF]
     // MONTHLY SMA QUERIES
 
 msma_q_date:{[ETF]
-    string each exec date from historical where ticker=ETF, m200sma<>0n
+    string each exec date from historical where ticker=ETF, m200sma<>0N
  }
 msma_q:{[ETF]
-    exec m200sma from historical where ticker=ETF, m200sma<>0n   
+    exec m200sma from historical where ticker=ETF, m200sma<>0N   
  }
 
 
     // INFLOWS - OUTFLOWS % QUERIES
 
 in_out_q_date:{[ETF]
-    string each exec date from historical where ticker=ETF, in_out_flow_per<>0n   
+    string each exec date from historical where ticker=ETF, in_out_flow_per<>0N   
  }
 in_out_q:{[ETF]
-    exec in_out_flow_per from historical where ticker=ETF, in_out_flow_per<>0n
+    exec in_out_flow_per from historical where ticker=ETF, in_out_flow_per<>0N
  }
 
 
