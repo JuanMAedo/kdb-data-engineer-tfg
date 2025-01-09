@@ -68,7 +68,7 @@ they confiurate the kernel manually.
 
 ### Info + Structure
 
-- All you have to use for generate date enrichment → ***dataETL.ipynb***. From there you can run anything you need.
+- All you have to use for generate date enrichment → ***dataETL.ipynb***.
 - For visualizate and agrupation of volatilities followings performance → ***dataAnalytics.ipynb***.
 
 We created an ETL project structure, which involves learning: kdb+, q language, Python, Python graphical libraries, integrations, data processing... in short, a complete project.
@@ -85,18 +85,16 @@ Therefore we will study 2 types of critical points:
 
 Then → **we will be able to group and categorise the variables in order to make decisions on when to buy and when to sell**.
 
-The first part of thesis will be to create the model in a theoretical way, in order to be able to put it into practice and to be able to analyse in example the set of BlackRock 
-ETFs chosen.
-
 Subsequently we will group the volatilities and drawdowns on sell/buy alerts moments and we will place the different ETFs according to their situation assessment.
-In addition, we will be able to determine the quartiles and the maximum and minimum drawdowns at those times, which is key to the estimates. For this we will use Matplotlib for visualization added to Q 
+We will be able to determine the quartiles and the maximum and minimum drawdowns at those times, which is key to the estimates. For this we will use Matplotlib for visualization added to Q 
 language calculations done in the ETL proccess.
 
 
 We will take advantage of the structure and capabilities offered by Q and qSQL to manage and manipulate this data.
 
 ___
-Shield: [![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa]
+
+[![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa]
 
 This work is licensed under a
 [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License][cc-by-nc-sa].
