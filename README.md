@@ -3,7 +3,7 @@
 Repository implemented to develop my final dual degree project:
 
 > - **COMPUTER SCIENCE**: Data Engineer Project at KDB+/q.
-> - **BUSINESS ADMINISTRATION**: ETF risk study model on their volatilities and drawdowns.
+> - **BUSINESS ADMINISTRATION**: Historical analysis of returns, volatility and risk in BlackRock ETFs
 
 ___
 
@@ -74,7 +74,7 @@ they confiurate the kernel manually.
 We created an ETL project structure, which involves learning: kdb+, q language, Python, Python graphical libraries, integrations, data processing... in short, a complete project.
 ___
 
-# ETF Model to Reduce Risk
+# Historical Analysis of Returns, Volatility and Risk in BlackRock ETFs
 
 - The main objective is to create a study environment for Blackrock's main ETFs (in US dollars) to try to valorate the situation of these ETF.
 - Secondly, create an estimate based on the past, taking the premise that the market is cyclical.
