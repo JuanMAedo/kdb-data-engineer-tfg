@@ -90,7 +90,7 @@ We will be able to determine the quartiles and the maximum and minimum drawdowns
 language calculations done in the ETL proccess.
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/f3ab2bc4-857d-455d-84aa-77a30d346490" alt="EWG relevant moments at 5 years period">
+  <img src="https://github.com/user-attachments/assets/b27be4cb-2d99-462a-a244-2e1920f99ddb" alt="EWG relevant moments at 5 years period">
 </p>
 
 
