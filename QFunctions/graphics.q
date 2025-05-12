@@ -22,7 +22,7 @@ format:{
     plt[`:gcf][][`:autofmt_xdate][];
     plt[`:gcf][][`:patch][`:set_facecolor]["w"]; 
     plt[`:grid][];
- }
+ };
 
 
 
@@ -129,7 +129,7 @@ daily_vol:{ [ETF]
     plt[`:legend][("Vol from 5 years";"Vol from 3 years";"Vol from 1 year";"Vol from 6 months";"Vol from 3 months")];
     plt[`:tight_layout][];
     plt[`:savefig]["Data/DataWarehouse/Images/Analytics/DailyVolatilities/",(string ETF),"-dailyvolatilities.png"];
- }
+ };
 
 daily_vol_mom:{ [ETF]
     plt[`:clf][];
@@ -152,7 +152,7 @@ daily_vol_mom:{ [ETF]
     plt[`:legend][("Vol from 5 years";"Vol from 3 years";"Vol from 1 year";"Vol from 6 months";"Vol from 3 months")];
     plt[`:tight_layout][];
     plt[`:savefig]["Data/DataWarehouse/Images/Analytics/DailyVolatilities/",(string ETF),"-dailyvolatilitiesMoments.png"];
- }
+ };
 
 daily_ret:{ [ETF]
     plt[`:clf][];
@@ -167,7 +167,7 @@ daily_ret:{ [ETF]
     plt[`:legend][("DAILY RETURN";"EJE X-0")];
     plt[`:tight_layout][];
     plt[`:savefig]["Data/DataWarehouse/Images/Analytics/DailyReturns/",(string ETF),"-dailyreturns.png"];
- }
+ };
 
 hist_filter_msma_5y:{[ETF;EQUITY]
     plt[`:clf][];
@@ -229,6 +229,7 @@ hist_filter_msma_1y:{[ETF;EQUITY]
     plt[`:tight_layout][];
     plt[`:savefig]["Data/DataWarehouse/Images/Analytics/",EQUITY,"/",(string ETF)," - moments 1 years.png"];
  };
+
 hist_filter_msma_6m:{[ETF;EQUITY]
     plt[`:clf][];
     plt[`:figure][(`figsize);(12;8)];
