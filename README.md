@@ -22,42 +22,42 @@ This it's opcional, but I did to have in different envs the kernel that I usuall
 
 2. Create conda env with python version (at least 3.6 to use kdb+ 4.X kernel version):
 
-```
+```bash
  conda activate
  conda create --name kdb python=3.10
 ```
 
 3. Activate env:
 
-```
+```bash
  conda activate kdb
 ```
 
 Now you should see something like:
-```
+```bash
 (kdb) [your machine]$:
 ```
 4. Installing kdb+:
 
-```
+```bash
  conda install -c kx kdb
 ```
 
 5. Now execute q and add the license([Get Free License](https://kx.com/kdb-personal-edition-download/)).
 
-```
+```bash
  q
 ```
 
 6. To use KDB+/Q kernel on Jupyter Notebook you have to added ***JupyterQ***:
 
-```
+```bash
  conda install -c kx jupyterq
 ```
 
 7. Execute a jupyter session and start to managed the info:
 
- ```
+```bash
  jupyter notebook
 ```
 
