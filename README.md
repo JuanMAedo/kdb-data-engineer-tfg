@@ -89,7 +89,10 @@ Subsequently we will group the volatilities and drawdowns on sell/buy alerts mom
 We will be able to determine the quartiles and the maximum and minimum drawdowns at those times, which is key to the estimates. For this we will use Matplotlib for visualization added to Q 
 language calculations done in the ETL proccess.
 
-![EWG relevant moments at 5 years period](https://github.com/user-attachments/assets/f3ab2bc4-857d-455d-84aa-77a30d346490)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/f3ab2bc4-857d-455d-84aa-77a30d346490" alt="EWG relevant moments at 5 years period">
+</p>
+
 
 
 
