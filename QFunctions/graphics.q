@@ -1,4 +1,4 @@
-// EN PRIMER LUGAR LAS FUNCIONES COMUNES A ESTAS FUNCIONES
+// Common Functions
 hist_legend:{[NAME;DATE]
     title: $[DATE=-1; "HISTORICAL - ",NAME; "HISTORICAL - ",NAME," FROM ",(string DATE)];
     plt[`:title][title];
@@ -6,6 +6,7 @@ hist_legend:{[NAME;DATE]
     plt[`:ylabel]["NAV VALUE"];
     plt[`:legend][("NAV VALUE";"Daily SMA 200";"Monthly SMA 200")];
  };
+
 in_out_legend:{[NAME;DATE]
     title: $[DATE=-1;"% INFLOWS-OUTFLOWS - ",NAME; "% INFLOWS-OUTFLOWS - ",NAME," FROM ",(string DATE)];
     plt[`:title][title];
@@ -26,7 +27,7 @@ format:{
 
 
 
-// LAS FUNCIONES PARA REPRESENTAR LAS GRÁFICAS
+// Graphic Functions
 
 historical_g:{[ETF]
     plt[`:clf][];
