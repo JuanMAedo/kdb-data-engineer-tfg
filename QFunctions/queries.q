@@ -1,6 +1,4 @@
-// LAS QUERIES DESDE INICO DE CADA HISTÓRICO
-
-    // HISTORICAL VALUE QUERIES 
+// HISTORICAL VALUE QUERIES 
 
 cot_q_date:{[ETF]
     string each exec date from historical where ticker=ETF
@@ -20,7 +18,7 @@ sma_q:{[ETF]
  }
 
 
-    // MONTHLY SMA QUERIES
+// MONTHLY SMA QUERIES
 
 msma_q_date:{[ETF]
     string each exec date from historical where ticker=ETF, m200sma<>0N
@@ -30,7 +28,7 @@ msma_q:{[ETF]
  }
 
 
-    // INFLOWS - OUTFLOWS % QUERIES
+// INFLOWS - OUTFLOWS % QUERIES
 
 in_out_q_date:{[ETF]
     string each exec date from historical where ticker=ETF, in_out_flow_per<>0N   
@@ -54,7 +52,7 @@ mom_los_lp_q:{[ETF]
 
 mom_los_cp_q:{[ETF]
     a: select date, nav_value from historical where ticker=ETF;
-    b: select distinct date, nav_value from table_losses where ticker=ETF, elem in (`p1y;`p6m;`p3m);;
+    b: select distinct date, nav_value from table_losses where ticker=ETF, elem in (`p1y;`p6m;`p3m);
     a: update nav_value: 0n from a; 
     a: a lj `date xkey b;
     exec nav_value from a
@@ -276,17 +274,11 @@ d_perf:{[ETF]
  }
 
 
-
-
-
-
-
-
 //----------------------------------------------------------------------------------------------------------
 
 // LAS QUERIES CON FILTRADO POR FECHA DE INICIO
 
-    // HISTORICAL VALUE QUERIES
+// HISTORICAL VALUE QUERIES
 
 cot_q_date_F:{[ETF;DATEFILT]
     string each exec date from historical where ticker=ETF, date > DATEFILT
@@ -296,7 +288,7 @@ cot_q_F:{[ETF;DATEFILT]
  }
 
 
-    // DAILY SMA QUERIES
+// DAILY SMA QUERIES
 
 sma_q_date_F:{[ETF;DATEFILT]
     string each exec date from historical where ticker=ETF, date > DATEFILT
